@@ -1,0 +1,29 @@
+/* ========================= Inde.HTML ======================== */
+
+.meio{
+	margin-top: 400px;
+	margin-left: 850px;
+}
+.btn-custom{
+	font-size: 15px;
+	border: 1px solid black;
+	border-radius: 500px;
+	text-transform: uppercase;
+	margin-left: 50px;
+}
+.btn-custom:hover{
+	color: #9bf0e1;
+}
+
+/* ========================= Jogo.html ======================== */ 
+
+#questionario{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.btn-enviar{
+	margin-top: 200px;
+	margin-left: 920px;
+	font-size: 25px;
+}
