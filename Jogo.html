@@ -22,19 +22,19 @@
 
 		<form id="questionario" name ="nome do questionario" method = "post" action="resposta.php">
 			
-			<p> 1) De acordo com o estudo do texto que acabamos de lê, assinale o que ele representa:</p>
+			<p id="enunciado"> 1) De acordo com o estudo do texto que acabamos de lê, assinale o que ele representa:</p>
 
 			<label>
-			<input type="radio" name="questao1" value="a" /> A) resposta1;</label>
+				<input id="alt1" type="radio" name="questao1" value="a"> <p id="alternativa1"> A) Alternativa 1; </p> </label>
 			<br />
 			<label>
-			<input type="radio" name="questao1" value="b" /> B) resposta2;</label>
+				<input id="alternativa2" type="radio" name="questao1" value="b" /> B) Alternativa 2;</label>
 			<br />
 			<label>
-			<input type="radio" name="questao1" value="c" /> C) resposta3;</label>
+				<input id="alternativa3" type="radio" name="questao1" value="c" /> C) Alternativa 3;</label>
 			<br />
 			<label>
-			<input type="radio" name="questao1" value="d" /> D) resposta4.</label>
+				<input id="alternativa4" type="radio" name="questao1" value="d" /> D) Alternativa 4.</label>
 			<br />
 
 		</form>
@@ -51,5 +51,6 @@
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="src/jogocontroller.js"></script>
 	
 </html>

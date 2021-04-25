@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>IHC Quiz - Play</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">
+              Progresso
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Pontuação
+            </p>
+            <h1 class="hud-main-text" id="pontuacao">
+              0
+            </h1>
+          </div>
+        </div>
+        <h2 id="questao">Qual a resposta para essa questão?</h2>
+        <div class="alternativa-container">
+          <p class="alternativa-prefix">A</p>
+          <p class="alternativa-text" data-number="1">Alternativa 1</p>
+        </div>
+        <div class="alternativa-container">
+          <p class="alternativa-prefix">B</p>
+          <p class="alternativa-text" data-number="2">Alternativa 2</p>
+        </div>
+        <div class="alternativa-container">
+          <p class="alternativa-prefix">C</p>
+          <p class="alternativa-text" data-number="3">Alternativa 3</p>
+        </div>
+        <div class="alternativa-container">
+          <p class="alternativa-prefix">D</p>
+          <p class="alternativa-text" data-number="4">Alternativa 4</p>
+        </div>
+        <a class="btn" id="prox">Proxima</a>
+        <a class="btn" style="display: none;" id="ant">Anteriora</a>
+
+      </div>
+    </div>
+    <script src="../src/game.js"></script>
+  </body>
+</html>
